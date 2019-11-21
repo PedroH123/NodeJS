@@ -25,7 +25,7 @@ namespace empresa{
             return this._clientes;
         }
 
-        public setCliente(cliente:Cliente){
+        public addCliente(cliente:Cliente){
             this._clientes.push(cliente);
         }
 
@@ -33,7 +33,7 @@ namespace empresa{
             return this._funcionario;
         }
 
-        public setFuncionario(funcionario:Funcionario){
+        public addFuncionario(funcionario:Funcionario){
             this._funcionario.push(funcionario);
         }
 
